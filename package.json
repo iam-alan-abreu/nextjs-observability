@@ -1,0 +1,34 @@
+{
+  "name": "nextjs-observability",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "lint": "next lint",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@microsoft/applicationinsights-react-js": "^17.0.0",
+    "@microsoft/applicationinsights-web": "^3.0.3",
+    "applicationinsights": "^3.0.0-beta.10",
+    "next": "14.0.2",
+    "pino": "^8.15.3",
+    "pino-appinsights-transport": "^0.1.2",
+    "react": "^18",
+    "react-dom": "^18",
+    "server-only": "^0.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.2",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "pino-pretty": "^10.2.0",
+    "prettier": "^3.1.0",
+    "typescript": "^5"
+  }
+}

@@ -1,0 +1,17 @@
+.azure/
+
+.next/
+
+infra/env-vars.json
+
+node_modules/
+
+.DS_Store
+.env*.local
+.env.azure
+
+next-env.d.ts
+npm-debug.log*
+*.tsbuildinfo
+
+TODO.md
